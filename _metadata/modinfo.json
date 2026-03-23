@@ -1,0 +1,22 @@
+{
+    "name": "Pocket cart Sdggmrs(s) Megapack (T2000)",
+    "summary": "A .",
+    "description": "As the maximum weight of semi-trailers was raised to 40 tonnes throughout Europe in 1985, and to 44 tonnes for pre-carriage and on-carriage CT traffic, new pocket wagons with a higher payload had to be procured. The T2000 was further developed from the Sdggnos 744 procured in 1987, and from 1997 the T2000 was built in larger numbers.",
+    "localization" : {
+        "de": {
+            "name": "Sdggmrs(s) Megapack (T2000) Taschenwagen",
+            "summary": "Ein ",
+            "description": "Da 1985 Europa weit das Höchstgewicht von Sattelauflieger 40 t bzw. bei Vor- und Nachlauf des KV-Verkehrs auf 44 t angehoben wurde, mussten neue Taschenwagen mit einer höheren Nutzlast beschafft werden. Der T2000 wurde aus den 1987 beschafften Sdggnos 744 weiterentwickelt, ab 1997 wurde der T2000 in größerer Stückzahl gebaut."
+        }
+    },
+    "authors": [
+        {
+            "name": "ModWerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Wagon"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/sdggmrs-megapack-t2000"
+}

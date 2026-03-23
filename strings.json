@@ -1,0 +1,66 @@
+{
+  "en": {
+		"menu_t2000": "Pocket cart Sdggmrs(s) T2000",
+			
+		"fake": "Fake - ",
+		
+		"fake_t2000": "Activate fake versions?",
+		"tooltip_fake": "Should the fake versions be available in the game?",
+	
+		"t2000_aae" : "Sdggmrss AAE",
+		"t2000_kombiverkehr" : "Sdggmrs Kombiverkehr",
+		"t2000_txlogistik" : "Sdggmrs TX Logsitik",
+		"t2000_vtg" : "Sdggmrss VTG",
+		"t2000_wascosa" : "Sdggmrs Wascosa orange",
+		"t2000_wascosa2" : "Sdggmrs Wascosa black",
+        "t2000_desc" : "As the maximum weight of semi-trailers was raised to 40 tonnes throughout Europe in 1985, and to 44 tonnes for pre-carriage and on-carriage CT traffic, new pocket wagons with a higher payload had to be procured. The T2000 was further developed from the Sdggnos 744 procured in 1987, and from 1997 the T2000 was built in larger numbers.",
+	
+		"ladung_container" : " - Container",
+		"ladung_trailer" : " - Trailer",
+		
+		"ganzzug_winner" : " - Block train Winner",
+		"ganzzug_walter" : " - Block train Walter",
+		"ganzzug_wetron" : " - Block train Wetron",
+		
+		"offset x-axis": "Offset x-axis",
+		"vehicle": "Vehicle",
+		"asset": "Asset",
+		"height": "Height",
+		"ground": "Ground",
+		"rail": "Rail",
+		"height_tooltip": "Where should be the origin of the height?",
+		"jrm_param_offsetx_tooltip": "Offset in x direction"
+  },
+  "de": {
+		"menu_t2000": "Sdggmrs(s) T2000 Taschenwagen",
+		
+		"fake": "Fake -",	
+		
+		"fake_t2000": "Fake-Versionen aktivieren?",
+		"tooltip_fake": "Sollen die Fake-Versionen verfügbar sein im Spiel?",
+		
+		"t2000_aae" : "Sdggmrss AAE",
+		"t2000_kombiverkehr" : "Sdggmrs Kombiverkehr",
+		"t2000_txlogistik" : "Sdggmrs TX Logsitik",
+		"t2000_vtg" : "Sdggmrss VTG)",
+		"t2000_wascosa" : "Sdggmrs Wascosa orange",
+		"t2000_wascosa2" : "Sdggmrs Wascosa schwarz",
+        "t2000_desc" : "Da 1985 Europa weit das Höchstgewicht von Sattelauflieger 40 t bzw. bei Vor- und Nachlauf des KV-Verkehrs auf 44 t angehoben wurde, mussten neue Taschenwagen mit einer höheren Nutzlast beschafft werden. Der T2000 wurde aus den 1987 beschafften Sdggnos 744 weiterentwickelt, ab 1997 wurde der T2000 in größerer Stückzahl gebaut.",
+	
+		"ladung_container" : " - Container",
+		"ladung_trailer" : " - Trailer",
+		
+		"ganzzug_winner" : " - Ganzzug Winner",
+		"ganzzug_walter" : " - Ganzzug Walter",
+		"ganzzug_wetron" : " - Ganzzug Wetron",
+		
+		"offset x-axis": "Offset x-Achse",
+		"vehicle": "Fahrzeug",
+		"asset": "Asset",
+		"height": "Höhe",
+		"ground": "Boden",
+		"rail": "Schiene",
+		"height_tooltip": "Wonach soll die Höhe gesetzt werden?",
+		"jrm_param_offsetx_tooltip": "Verschiebung in x-Richtung"
+    }
+}
