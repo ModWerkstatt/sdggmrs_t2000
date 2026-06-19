@@ -114,13 +114,13 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_aae.mtl", },
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
 									mesh = "msh/rumpf_lod0.msh",
 									name = "body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/rumpf_aae.mtl", },
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
 									mesh = "msh/gelenk_1_lod0.msh",
 									name = "gelenk1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -176,13 +176,13 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_aae.mtl", },
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
 									mesh = "msh/rumpf_lod0.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/rumpf_aae.mtl", },
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
 									mesh = "msh/gelenk_2_lod0.msh",
 									name = "gelenkt2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -320,13 +320,13 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_aae.mtl", },
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
 									mesh = "msh/rumpf_lod1.msh",
 									name = "body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/rumpf_aae.mtl", },
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
 									mesh = "msh/gelenk_1_lod1.msh",
 									name = "gelenk1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -338,13 +338,13 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_aae.mtl", },
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
 									mesh = "msh/rumpf_lod1.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/rumpf_aae.mtl", },
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
 									mesh = "msh/gelenk_2_lod1.msh",
 									name = "gelenk2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -438,7 +438,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_aae.mtl", },
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
 									mesh = "msh/rumpf_lod2.msh",
 									name = "body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -450,7 +450,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_aae.mtl", },
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
 									mesh = "msh/rumpf_lod2.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -472,7 +472,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_aae.mtl", },
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
 									mesh = "msh/rumpf_lod3.msh",
 									name = "body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -484,7 +484,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_aae.mtl", },
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
 									mesh = "msh/rumpf_lod3.msh",
 									name = "body2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -504,14 +504,14 @@ return {
 		metadata = { 
 			availability = { 
 				yearFrom = 1997,
-				yearTo = 2014,
+				yearTo = 0,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
 				description = _("t2000_desc"),
-				name = _("t2000_aae"),
+				name = _("t2000_kombiverkehr"),
 			},
 			emissions = { 
 				noise = { 
@@ -529,7 +529,7 @@ return {
 				brakeDeceleration = 2.5,
 				engines = { },
 				friction = 0.0199999995529651641845703125,
-				topSpeed = 33.333332061767578125,
+				topSpeed = 27.7777996063232421875,
 				weightEmpty = 34250,
 				weightMaxPayload = 95400,
 			},
@@ -557,49 +557,49 @@ return {
 				slots = {
 					{ 
 						group = "body",
-						models = { "zapfen_leer_aae.mdl", },
+						models = { "zapfen_leer_kombiverkehr.mdl", },
 						randomId = 0,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_20ft_aae.mdl", },
+						models = { "zapfen_20ft_kombiverkehr.mdl", },
 						randomId = 1,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_40ft_aae.mdl", },
+						models = { "zapfen_40ft_kombiverkehr.mdl", },
 						randomId = 2,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "zapfen_lkw_aae.mdl", },
+						models = { "zapfen_lkw_kombiverkehr.mdl", },
 						randomId = 3,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body2",
-						models = { "zapfen_leer_aae.mdl", },
+						models = { "zapfen_leer_kombiverkehr.mdl", },
 						randomId = 12,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body2",
-						models = { "zapfen_20ft_aae.mdl", },
+						models = { "zapfen_20ft_kombiverkehr.mdl", },
 						randomId = 13,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body2",
-						models = { "zapfen_40ft_aae.mdl", },
+						models = { "zapfen_40ft_kombiverkehr.mdl", },
 						randomId = 15,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body2",
-						models = { "zapfen_lkw_aae.mdl", },
+						models = { "zapfen_lkw_kombiverkehr.mdl", },
 						randomId = 15,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -735,10 +735,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_t2000.mdl",
 				loadSpeed = 6,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,
