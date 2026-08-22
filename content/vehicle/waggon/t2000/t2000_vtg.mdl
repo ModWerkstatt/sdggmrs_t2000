@@ -44,7 +44,7 @@ return {
 								{ 
 									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
 									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/hb_lod0.msh",
-									name = "zweite_bremse",
+									name = "hb",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 							},
