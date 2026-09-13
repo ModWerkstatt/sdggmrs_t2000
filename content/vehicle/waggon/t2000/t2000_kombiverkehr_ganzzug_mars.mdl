@@ -1,0 +1,795 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 17.135, 1.602, 2.13883, },
+			bbMin = { -17.135, -1.602, -0.02998, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 17.135, 1.6, 2.26608, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.23392, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_y25_lss_lod0.msh",
+									name = "drehgestell",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/brakes_lod0.msh",
+									name = "zweite_bremse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/hb_lod0.msh",
+									name = "hb",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "drehgestell_mitte",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_y25_lss_lod0.msh",
+									name = "drehgestell2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/brakes_lod0.msh",
+									name = "zweite_bremse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "drehgestell_vorne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -14.2, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_y25_lss_lod0.msh",
+									name = "drehgestell3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a5",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
+									name = "a6",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/brakes_lod0.msh",
+									name = "zweite_bremse",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "drehgestell_hinten",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 14.2, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
+									mesh = "msh/rumpf_lod0.msh",
+									name = "body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
+									mesh = "msh/gelenk_1_lod0.msh",
+									name = "gelenk1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.87, 0.65, 1.16, 1, },
+								},
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.79, -1.16, 1.16, 1, },
+								},
+							},
+							name = "rumpf1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.78, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
+									mesh = "msh/rumpf_lod0.msh",
+									name = "body2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
+									mesh = "msh/gelenk_2_lod0.msh",
+									name = "gelenkt2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										back_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_hinten",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.87, 0.65, 1.16, 1, },
+								},
+								{ 
+									animations = { 
+										back_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+									name = "zugschluss_hinten2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.79, -1.16, 1.16, 1, },
+								},
+							},
+							name = "rumpf2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.78, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 150,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_y25_lss_lod1.msh",
+									name = "drehgestell",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+								},
+							},
+							name = "drehgestell_mitte",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_y25_lss_lod1.msh",
+									name = "drehgestell2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+								},
+							},
+							name = "drehgestell_vorne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -14.2, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_y25_lss_lod1.msh",
+									name = "drehgestell3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a5",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod1.msh",
+									name = "a6",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+								},
+							},
+							name = "drehgestell_hinten",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 14.2, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
+									mesh = "msh/rumpf_lod1.msh",
+									name = "body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
+									mesh = "msh/gelenk_1_lod1.msh",
+									name = "gelenk1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "rumpf1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.78, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
+									mesh = "msh/rumpf_lod1.msh",
+									name = "body2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
+									mesh = "msh/gelenk_2_lod1.msh",
+									name = "gelenk2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "rumpf2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.78, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 150,
+				visibleTo = 400,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_y25_lss_lod2.msh",
+									name = "drehgestell",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+								},
+							},
+							name = "drehgestell_mitte",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_y25_lss_lod2.msh",
+									name = "drehgestell2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+								},
+							},
+							name = "drehgestell_vorne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -14.2, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/dg_ba_y25_lss_lod2.msh",
+									name = "drehgestell3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a5",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45162, 1, },
+								},
+								{ 
+									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
+									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
+									name = "a6",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.9, 0, 0.45162, 1, },
+								},
+							},
+							name = "drehgestell_hinten",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 14.2, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
+									mesh = "msh/rumpf_lod2.msh",
+									name = "body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "rumpf1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.78, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
+									mesh = "msh/rumpf_lod2.msh",
+									name = "body2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "rumpf2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.78, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 400,
+				visibleTo = 900,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
+									mesh = "msh/rumpf_lod3.msh",
+									name = "body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "rumpf1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.78, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_kombiverkehr.mtl", },
+									mesh = "msh/rumpf_lod3.msh",
+									name = "body2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "rumpf2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.78, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 900,
+				visibleTo = 1500,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1997,
+				yearTo = 0,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("t2000_desc"),
+				name = _("t2000_kombiverkehr"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			extent = { 
+				bbMax = { 17.135, 1.602, 2.13883, },
+				bbMin = { -17.135, -1.602, -0.02998, },
+			},
+			landVehicle = { 
+				brakeDeceleration = 0.7,
+				curveSpeedScale = 1,
+				engines = { },
+				friction = 0.02,
+				topSpeed = 27.7778,
+				weightEmpty = 34250,
+				weightMaxPayload = 95400,
+			},
+			loadIndicator = { 
+				configs = { 
+					slots_0 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+									{ 3, },
+									{ 3, 4, },
+									{ 3, 4, },
+								},
+							},
+						},
+					},
+					slots_1 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 5, },
+									{ 8, },
+									{ 8, 9, },
+									{ 8, 9, },
+								},
+							},
+						},
+					},
+				},
+				slots = {
+					{ 
+						group = "body",
+						models = { "zapfen_leer_aae.mdl", },
+						randomId = 0,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "zapfen_20ft_aae.mdl", },
+						randomId = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "zapfen_40ft_aae.mdl", },
+						randomId = 2,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "zapfen_lkw_aae.mdl", },
+						randomId = 3,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body",
+						models = { 
+							"mw_trailer_addon::/cargos/assets/trailer_addon/megaliner_beladen_mars.mdl",
+							"mw_trailer_addon::/cargos/assets/trailer_addon/megaliner_beladen_mars2.mdl", },
+						randomId = 4,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1, 0, 0.35, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "zapfen_leer_aae.mdl", },
+						randomId = 5,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "zapfen_20ft_aae.mdl", },
+						randomId = 6,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "zapfen_40ft_aae.mdl", },
+						randomId = 7,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { "zapfen_lkw_aae.mdl", },
+						randomId = 8,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{ 
+						group = "body2",
+						models = { 
+							"mw_trailer_addon::/cargos/assets/trailer_addon/megaliner_beladen_mars.mdl",
+							"mw_trailer_addon::/cargos/assets/trailer_addon/megaliner_beladen_mars2.mdl", },
+						randomId = 9,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1, 0, 0.3, 1, },
+					},
+				},
+			},
+			maintenance = { 
+				lifespan = 29220,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "a1", "a2", "a3", "a4", "a5", "a6", },
+					fakeBogies = {
+						{
+							{ 
+								group = "rumpf1",
+								offset = 0,
+								position = 0,
+							},
+							{ 
+								group = "rumpf1",
+								offset = 0,
+								position = -14.2,
+							},
+							{ 
+								group = "rumpf2",
+								offset = 0,
+								position = 0,
+							},
+							{ 
+								group = "rumpf2",
+								offset = 0,
+								position = 14.2,
+							},
+						},
+						{
+							{ 
+								group = "rumpf1",
+								offset = 0,
+								position = 0,
+							},
+							{ 
+								group = "rumpf1",
+								offset = 0,
+								position = -14.2,
+							},
+							{ 
+								group = "rumpf2",
+								offset = 0,
+								position = 0,
+							},
+							{ 
+								group = "rumpf2",
+								offset = 0,
+								position = 14.2,
+							},
+						},
+						{
+							{ 
+								group = "rumpf1",
+								offset = 0,
+								position = 0,
+							},
+							{ 
+								group = "rumpf1",
+								offset = 0,
+								position = -14.2,
+							},
+							{ 
+								group = "rumpf2",
+								offset = 0,
+								position = 0,
+							},
+							{ 
+								group = "rumpf2",
+								offset = 0,
+								position = 14.2,
+							},
+						},
+						{
+							{ 
+								group = "rumpf1",
+								offset = 0,
+								position = 0,
+							},
+							{ 
+								group = "rumpf1",
+								offset = 0,
+								position = -14.2,
+							},
+							{ 
+								group = "rumpf2",
+								offset = 0,
+								position = 0,
+							},
+							{ 
+								group = "rumpf2",
+								offset = 0,
+								position = 14.2,
+							},
+						},
+					},
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_container.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 3,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS", "LIQUID", "FLATBED", },
+										cargoTypesExcluded = { "::/cargos/crude_oil/crude_oil.cargo", "::/cargos/logs/logs.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 60,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS", "LIQUID", "FLATBED", },
+										cargoTypesExcluded = { "::/cargos/crude_oil/crude_oil.cargo", "::/cargos/logs/logs.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_1",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTransportModes = { },
+				entrances = { },
+				filterTags = { "default", },
+				groupFileName = "menu_t2000.mdl",
+				loadSpeed = 6,
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end
